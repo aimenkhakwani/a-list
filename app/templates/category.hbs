@@ -1,7 +1,3 @@
 <h2>Listings for {{model.name}}</h2>
 {{new-listing saveListing="saveListing" category=model}}
-{{#each model.listings as |listing|}}
-  <div class="well">
-    {{listing-tile listing=listing deleteListing="deleteListing"}}
-  </div>
-{{/each}}
+{{category-detail deleteListing="deleteListing" category=model}}

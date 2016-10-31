@@ -1,5 +1,11 @@
-<ul>
+<div class="row">
+  <div class="col-md-4 col-md-offset-4">
+    {{new-category saveCategory="saveCategory"}}
+    <br>
+  </div>
+</div>
+<div class="row">
   {{#each model.categories as |category|}}
     {{category-tile category=category}}
   {{/each}}
-</ul>
+</div>
