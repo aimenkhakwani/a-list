@@ -12,7 +12,7 @@ export default Ember.Component.extend({
         description: this.get('description'),
         owner: this.get('owner'),
         contact: this.get('contact'),
-        date: moment().format('MM-DD-YYYY'),
+        date: moment(),
         category: this.get('category')
       };
       this.set('addNewListing', false);

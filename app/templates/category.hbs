@@ -2,6 +2,6 @@
 {{new-listing saveListing="saveListing" category=model}}
 {{#each model.listings as |listing|}}
   <div class="well">
-    {{listing-tile listing=listing}}
+    {{listing-tile listing=listing deleteListing="deleteListing"}}
   </div>
 {{/each}}
