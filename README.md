@@ -2,6 +2,7 @@
 #### By Aimen K & April P
 
 This web app imitates the infamous website Craigslist. It allows users to add a category, and then listings for each category.
+####
 <img src="public/assets/img/screenshot.png" alt="a screenshot of the app">
 
 ## Prerequisites
